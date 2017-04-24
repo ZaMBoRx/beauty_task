@@ -1,0 +1,22 @@
+body {
+  padding-top: 5px;
+}
+.service-list-table {
+  min-height: 244px;
+}
+@media (min-width: 768px) {
+  .service-list-table {
+    min-height: 324px;
+  }
+}
+@media (min-width: 992px) {
+  .service-list-table {
+    min-height: 244px;
+  }
+}
+.service-list-table th.success {
+  cursor: pointer;
+}
+.service-list-table th.success:hover {
+  background-color: #aed5a4;
+}
